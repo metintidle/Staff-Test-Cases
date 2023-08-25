@@ -1,0 +1,36 @@
+[
+  {
+    "ResponseType": "ServicesList",
+    "Result": true,
+    "ClientId": 1,
+    "Message": "",
+    "ResponseBody": [
+      {
+        "ServiceName": "",
+        "DisplayName": "",
+        "Status": ""
+      }
+    ]
+  },
+  {
+    "ResponseType": "ServiceStarted",
+    "Result": true,
+    "ClientId": 1,
+    "Message": "",
+    "ResponseBody": ""
+  },
+  {
+    "ResponseType": "ServiceStopped",
+    "Result": true,
+    "ClientId": 1,
+    "Message": "",
+    "ResponseBody": ""
+  },
+  {
+    "ResponseType": "ServiceStatus",
+    "Result": true,
+    "ClientId": 1,
+    "Message": "",
+    "ResponseBody": ""
+  }
+]
