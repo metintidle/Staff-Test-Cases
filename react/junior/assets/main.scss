@@ -1,0 +1,22 @@
+@import "./base/color";
+@import "./base/size";
+
+.mb-90 {
+  margin-bottom: calc($base-space * 3) !important;
+}
+
+.mb-90 {
+  margin-top: calc($base-space * 3) !important;
+}
+
+.mb-60 {
+  margin-bottom: calc($base-space * 2) !important;
+}
+
+.mb-60 {
+  margin-bottom: calc($base-space * 2) !important;
+}
+
+.mg-90 {
+  margin: calc($base-space * 3) !important;
+}
