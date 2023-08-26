@@ -1,5 +1,6 @@
 {
   "conventionalCommits.scopes": [
-    "react-junior"
+    "react-junior",
+    "react"
   ]
 }

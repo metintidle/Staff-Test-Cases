@@ -37,15 +37,13 @@ The underlying json code has shown format data for each quesiton.
 
 - [ ] Refresh Question List: when `Task Assessments` button is clicked, refresh the question list to update with the selected categories.
 
+- [ ] Show Correct Questions: When a category is selected, load the questions of that category. e.x DDOS =>load ddos.json file
 
 - [ ] Ignore Duplicate Questions: When multiple categories are selected, ensuring that any duplicate questions are ignored.
-
 
 - [ ] Show Error: after click on `Get Your Results` button, any question that is not selected should be highlighted in red color.
 
 ![error](./error.png)
-
-
 
 ## Extra Measures
 
