@@ -1,0 +1,972 @@
+[
+  {
+    "id": 1,
+    "title": "Do you monitor all endpoints for active and up to date endpoint protection (AntiVirus)?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 5,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 6,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 7,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 8,
+        "title": "No",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      },
+      {
+        "id": 1,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 2,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 3,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 4,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "Adopting a strong and up to date endpoint protection policy is critical to security protection, Windows 10 Enterprise and Microsoft Defender Antivirus, a component of Defender for Endpoint, are a great place to start."
+  },
+  {
+    "id": 3,
+    "title": "What kind of detection capabilities do you have on endpoints to detect zero days and malware variants based on malware behavior?",
+    "answerType": 3,
+    "options": [
+      {
+        "id": 29,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 2
+      },
+      {
+        "id": 30,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 3
+      },
+      {
+        "id": 31,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 32,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      },
+      {
+        "id": 33,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 24,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 25,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 26,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 27,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 28,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 34,
+        "title": "None",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 35,
+        "title": "None",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 36,
+        "title": "None",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 37,
+        "title": "None",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 38,
+        "title": "None",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      }
+    ],
+    "suggestion": "Stopping attacks before they spread is critical, having both client-based and cloud analysis detection capabilities put an organization in a better situation for stopping attacks before they take hold in your environment. Using Defender for Endpoint and Defender for Office 365 provides both client and cloud-based detection capabilities."
+  },
+  {
+    "id": 4,
+    "title": "What % of devices in your organization are running a modern operating system (e.g. Windows 10 Enterprise version N or N-1 )?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 64,
+        "title": "0%",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 65,
+        "title": "0%",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 66,
+        "title": "0%",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 67,
+        "title": "0%",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 68,
+        "title": "0%",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      },
+      {
+        "id": 59,
+        "title": "10%",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 1
+      },
+      {
+        "id": 60,
+        "title": "10%",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 2
+      },
+      {
+        "id": 61,
+        "title": "10%",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 1
+      },
+      {
+        "id": 62,
+        "title": "10%",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 2
+      },
+      {
+        "id": 63,
+        "title": "10%",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 39,
+        "title": "100%",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 40,
+        "title": "100%",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 41,
+        "title": "100%",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 42,
+        "title": "100%",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 43,
+        "title": "100%",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "In addition to the productivity of a modern operating system, the built-in security protections help keep you and your organization safe. Windows 10 Enterprise and Defender for Endpoint keep your PCs up to date. Enable your IT team to keep your organization safe, upgrade to a modern operating system ASAP."
+  },
+  {
+    "id": 5,
+    "title": "Do you have the ability to centrally monitor and investigate endpoint activity logs across events, processes, and network traffic for detection and response?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 77,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 78,
+        "title": "No",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 79,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 80,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 81,
+        "title": "No",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 0
+      },
+      {
+        "id": 82,
+        "title": "No",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      },
+      {
+        "id": 83,
+        "title": "No",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 0
+      },
+      {
+        "id": 84,
+        "title": "No",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 0
+      },
+      {
+        "id": 69,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 70,
+        "title": "Yes",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 71,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 72,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 73,
+        "title": "Yes",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 74,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 75,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "Centrally monitoring endpoint activity logs provides your security analysts real time information for incident response and remediation, increasing the productivity of users and security specialists. An XDR + SIEM solution like Microsoft Defender & Azure Sentinel enable these features."
+  },
+  {
+    "id": 7,
+    "title": "Do you have mobile device malware detection capabilities?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 92,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 93,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 94,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 89,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 90,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 91,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "For organizations that use mobile devices to do business, BYOD or company owned, the threat is very real and could result in exposed geolocation, passwords, and compromised documents. Microsoft Defender for Endpoint monitors for all these intrusions and protects your users wherever they are."
+  },
+  {
+    "id": 15,
+    "title": "Do you use advanced email protection with file detonation and URL rewriting?",
+    "answerType": 5,
+    "options": [
+      {
+        "id": 207,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 195,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 2
+      },
+      {
+        "id": 196,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 5
+      },
+      {
+        "id": 197,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 198,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      },
+      {
+        "id": 199,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 2
+      },
+      {
+        "id": 200,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 183,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 184,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 185,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 186,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 187,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 188,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 189,
+        "title": "Yes, for all users and content from external senders",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 4
+      },
+      {
+        "id": 190,
+        "title": "Yes, for all users and content from external senders",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 6
+      }
+    ],
+    "suggestion": "Phishing emails are spiking and a constant threat to any organization, using built-in malware detection, automatic safe links and attachments, and email scanning is a critical step to protecting your office. With automated workflows Microsoft Defender for Office 365 protects organizations throughout the lifecycle of an attack."
+  },
+  {
+    "id": 34,
+    "title": "Do you catalogue and audit 3rd party libraries and open source component dependencies in custom software projects?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 333,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 330,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 331,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 332,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "Maintaining system stability and reliability while working with open source and 3rd party libraries is important to produce better, more reliable products. By adopting a DevOps culture along with DevOps practices and tools you can accelerate your time to market and competitive edge. Using Azure DevOps allows your organization to collaborate on code development, and build and deploy applications faster and more reliably."
+  },
+  {
+    "id": 37,
+    "title": "For in-house software development do you have a secure by design policy (DevSecOps) with security objectives integrated into your Software Development Lifecycle?",
+    "answerType": 4,
+    "options": [
+      {
+        "id": 356,
+        "title": "No",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 347,
+        "title": "Yes, at build time (SAST) and run time (DAST)",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 348,
+        "title": "Yes, at build time (SAST) and run time (DAST)",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 349,
+        "title": "Yes, at build time (SAST) and run time (DAST)",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      },
+      {
+        "id": 350,
+        "title": "Yes, at build time (SAST) or run time (DAST)",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 5
+      },
+      {
+        "id": 351,
+        "title": "Yes, at build time (SAST) or run time (DAST)",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 5
+      },
+      {
+        "id": 352,
+        "title": "Yes, at build time (SAST) or run time (DAST)",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 5
+      },
+      {
+        "id": 353,
+        "title": "Yes, prior to production release/deploymen",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 3
+      },
+      {
+        "id": 354,
+        "title": "Yes, prior to production release/deploymen",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      },
+      {
+        "id": 355,
+        "title": "Yes, prior to production release/deploymen",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 4
+      }
+    ],
+    "suggestion": "As engineering organizations accelerate continuous application delivery to impressive levels, it’s important to ensure that continuous security validation keeps up. Utilizing tools like the open source developer tool from Microsoft, Project OneFuzz, developers can continuously and proactively harden software and fix bugs prior to release."
+  },
+  {
+    "id": 38,
+    "title": "Does your IoT strategy include a security assessment prior to procurement for remote endpoint update, monitoring, and investigation capabilities?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 360,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 357,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 358,
+        "title": "Yes",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 25
+      },
+      {
+        "id": 359,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "IoT is enabling a new wave of innovation with billions of connected devices, increasing the attack surface and risk. Having a complete inventory of all your IoT/OT devices, their details, and how they communicate on the IoT/OT network is critical for IoT security. Azure Defender for IoT is a unified security solution for identifying IoT/OT devices, vulnerabilities, and threats that enables you to secure your entire IoT/OT environment."
+  },
+  {
+    "id": 47,
+    "title": "Have you implemented performance monitoring for servers?",
+    "answerType": 3,
+    "options": [
+      {
+        "id": 396,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 394,
+        "title": "Yes, with alerting",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 395,
+        "title": "Yes, with manual review",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      }
+    ],
+    "suggestion": "Servers are at the core of your IT operations. Monitoring for CPU usage, drive space, and memory are just a few metrics to track, alerting when there’s an issue is important to correct a situation before there’s a problem. Azure Monitor helps provide a holistic view of your servers and can send automated pre-defined alerts before there’s a problem."
+  },
+  {
+    "id": 48,
+    "title": "Do you inventory and monitor legacy IoT devices and their networks for anomalous or malicious activity?",
+    "answerType": 3,
+    "options": [
+      {
+        "id": 399,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 397,
+        "title": "Yes, inventory and monitor",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 398,
+        "title": "Yes, inventory only",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      }
+    ],
+    "suggestion": "Legacy IoT devices have the potential to open security vulnerabilities in your environment, as many IoT devices have already been deployed without basic cybersecurity built into them. By actively inventorying and monitoring these devices with Azure Defender for IoT, you can ensure each of these are accurately accounted for and provide the appropriate security policies."
+  }
+]

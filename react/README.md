@@ -1,12 +1,57 @@
 # About
 
-There are test cases for different level of skills:
+This project is a security questionnaire that asks users about various aspects of security, categorized into different sections. When a user selects a category, they will see a list of related questions to which they can provide answers. Upon completion, they'll receive feedback regarding their level of knowledge and suggestions for improvement. but this sample doesn't  need to show result.
 
-## Entry-level (junior)
+> [Material UI Library](https://mui.com/) is used in this project.
 
-In this case, you should be able to create error messages for each questions when the question is not answered. There are a list of questions that each one of them have different options as answers.
+> **NOTE: First you must create a fork of the repository, Once you have completed the tasks, create a Pull Request.**
+
+## Project description
+
+A sample of categories can be found in [categoryInfo.ts](./src/context/categoryInfo.ts). The categories include 'Phishing', 'DDoS', 'Ransomware', 'Crypto Jacking', 'Data Exfiltration'.The `questionCount` variable represents the number of questions in the category. The questions are located in the `data` folder. Each JSON file within the folder contains a set of questions.
+
+The underlying json code has shown format data for each quesiton.
+
+```json
+{
+    "id": 1, // question number
+    "title": "Do you monitor all endpoints for active and up to date endpoint protection (AntiVirus)?", //  question
+    "answerType": 2, // the number of options
+    "options": [ // options for answer
+      {
+        "id": 5,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      ...
+    ],
+    "suggestion": "Adopting a strong and up to date endpoint protection policy is ..." // security suggestion
+  }
+```
+
+## Tasks
+
+- [ ] Refresh Question List: when `Task Assessments` button is clicked, refresh the question list to update with the selected categories.
 
 
-## Mid-level (intermediate)
+- [ ] Ignore Duplicate Questions: When multiple categories are selected, ensuring that any duplicate questions are ignored.
 
-In this case, you should be able to create dynamic input with form-hook-
+
+- [ ] Show Error: after click on `Get Your Results` button, any question that is not selected should be highlighted in red color.
+
+![error](./error.png)
+
+
+
+## Extra Measures
+
+The underlying measurements are taken into consideration when reviewing your code:
+
+1. SOLID
+2. Clean code
+3. Comments
+4. Data Structures

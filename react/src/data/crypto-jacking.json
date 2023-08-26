@@ -1,0 +1,2140 @@
+[
+  {
+    "id": 1,
+    "title": "Do you monitor all endpoints for active and up to date endpoint protection (AntiVirus)?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 5,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 6,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 7,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 8,
+        "title": "No",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      },
+      {
+        "id": 1,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 2,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 3,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 4,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "Adopting a strong and up to date endpoint protection policy is critical to security protection, Windows 10 Enterprise and Microsoft Defender Antivirus, a component of Defender for Endpoint, are a great place to start."
+  },
+  {
+    "id": 2,
+    "title": "How often do you delploy critical updates to applications and operating systems?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 9,
+        "title": "continuously",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 10,
+        "title": "continuously",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 11,
+        "title": "continuously",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      },
+      {
+        "id": 21,
+        "title": "less than 1 year",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 1
+      },
+      {
+        "id": 22,
+        "title": "less than 1 year",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 23,
+        "title": "less than 1 year",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 2
+      },
+      {
+        "id": 18,
+        "title": "less than 180 days",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 19,
+        "title": "less than 180 days",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 20,
+        "title": "less than 180 days",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 4
+      },
+      {
+        "id": 15,
+        "title": "less than 30 days",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 3
+      },
+      {
+        "id": 16,
+        "title": "less than 30 days",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      },
+      {
+        "id": 17,
+        "title": "less than 30 days",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 5
+      },
+      {
+        "id": 12,
+        "title": "less than 7 days",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 4
+      },
+      {
+        "id": 13,
+        "title": "less than 7 days",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 4
+      },
+      {
+        "id": 14,
+        "title": "less than 7 days",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 7
+      }
+    ],
+    "suggestion": "Keeping applications and operating systems up to date, continuously, is an important step in device security, applying the latest patches to prevent security vulnerabilities. With Microsoft Defender for Endpoint and Intune you can manage all your devices from one place and automatically push critical updates as they are released."
+  },
+  {
+    "id": 3,
+    "title": "What kind of detection capabilities do you have on endpoints to detect zero days and malware variants based on malware behavior?",
+    "answerType": 3,
+    "options": [
+      {
+        "id": 29,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 2
+      },
+      {
+        "id": 30,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 3
+      },
+      {
+        "id": 31,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 32,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      },
+      {
+        "id": 33,
+        "title": "Client-based analysis only",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 24,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 25,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 26,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 27,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 28,
+        "title": "Client-based and cloud analysis",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 34,
+        "title": "None",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 35,
+        "title": "None",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 36,
+        "title": "None",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 37,
+        "title": "None",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 38,
+        "title": "None",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      }
+    ],
+    "suggestion": "Stopping attacks before they spread is critical, having both client-based and cloud analysis detection capabilities put an organization in a better situation for stopping attacks before they take hold in your environment. Using Defender for Endpoint and Defender for Office 365 provides both client and cloud-based detection capabilities."
+  },
+  {
+    "id": 4,
+    "title": "What % of devices in your organization are running a modern operating system (e.g. Windows 10 Enterprise version N or N-1 )?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 64,
+        "title": "0%",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 65,
+        "title": "0%",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 66,
+        "title": "0%",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 67,
+        "title": "0%",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 68,
+        "title": "0%",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      },
+      {
+        "id": 59,
+        "title": "10%",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 1
+      },
+      {
+        "id": 60,
+        "title": "10%",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 2
+      },
+      {
+        "id": 61,
+        "title": "10%",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 1
+      },
+      {
+        "id": 62,
+        "title": "10%",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 2
+      },
+      {
+        "id": 63,
+        "title": "10%",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 39,
+        "title": "100%",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 40,
+        "title": "100%",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 41,
+        "title": "100%",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 42,
+        "title": "100%",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 43,
+        "title": "100%",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "In addition to the productivity of a modern operating system, the built-in security protections help keep you and your organization safe. Windows 10 Enterprise and Defender for Endpoint keep your PCs up to date. Enable your IT team to keep your organization safe, upgrade to a modern operating system ASAP."
+  },
+  {
+    "id": 5,
+    "title": "Do you have the ability to centrally monitor and investigate endpoint activity logs across events, processes, and network traffic for detection and response?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 77,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 78,
+        "title": "No",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 79,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 80,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 81,
+        "title": "No",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 0
+      },
+      {
+        "id": 82,
+        "title": "No",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      },
+      {
+        "id": 83,
+        "title": "No",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 0
+      },
+      {
+        "id": 84,
+        "title": "No",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 0
+      },
+      {
+        "id": 69,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 70,
+        "title": "Yes",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 71,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 72,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 73,
+        "title": "Yes",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 74,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 75,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "Centrally monitoring endpoint activity logs provides your security analysts real time information for incident response and remediation, increasing the productivity of users and security specialists. An XDR + SIEM solution like Microsoft Defender & Azure Sentinel enable these features."
+  },
+  {
+    "id": 8,
+    "title": "In the event of a catastrophic event where everything was lost all systems and data necessary for operations could be restored to another location or cloud within",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 103,
+        "title": "1 day",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 3
+      },
+      {
+        "id": 104,
+        "title": "1 day",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      },
+      {
+        "id": 105,
+        "title": "1 day",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 15
+      },
+      {
+        "id": 106,
+        "title": "1 day",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 5
+      },
+      {
+        "id": 95,
+        "title": "1 hour",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 96,
+        "title": "1 hour",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 97,
+        "title": "1 hour",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 25
+      },
+      {
+        "id": 98,
+        "title": "1 hour",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 8
+      },
+      {
+        "id": 107,
+        "title": "3 day",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 108,
+        "title": "3 day",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 109,
+        "title": "3 day",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 10
+      },
+      {
+        "id": 110,
+        "title": "3 day",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 3
+      },
+      {
+        "id": 99,
+        "title": "3 hour",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 4
+      },
+      {
+        "id": 100,
+        "title": "3 hour",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 4
+      },
+      {
+        "id": 101,
+        "title": "3 hour",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 20
+      }
+    ],
+    "suggestion": "Backups are essential for resilience after an organization has been breached. Apply the 3-2-1 rule for maximum protection and availability: 3 copies, original + 2 backups, 2 storage types, and 1 offsite or cold copy. Files Restore in OneDrive for Business allows you to restore your entire OneDrive to a previous point in time within the last 30 days and can help you recover from a ransomeware attack. Additionally, with Azure Backup and Azure Site Recovery you can easily and quickly backup without the need to deploy complex on-premises backup solutions, with site recovery in just a few clicks."
+  },
+  {
+    "id": 9,
+    "title": "Is multi-factor authentication required for login to internet-facing servers?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 119,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 116,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 117,
+        "title": "Yes",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 118,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "Protecting access to servers is just as important as protecting users. With EMS and Azure Defender for Servers you get comprehensive endpoint detection and response capabilities for your Windows and Linux machines as well as just-in-time server access."
+  },
+  {
+    "id": 10,
+    "title": "Do you monitor your network for credential exposure and pass-the-hash or pass-the-ticket attacks?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 125,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 120,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 121,
+        "title": "Yes",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 122,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 123,
+        "title": "Yes",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 124,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "Exposed credentials pose an imminent danger to an organization. Once exposed, an attacker can gain lateral movement and seek out and steal sensitive data. Using sophisticated countermeasures built into Microsoft Defender for Identity can help protect you from exposed credential risk."
+  },
+  {
+    "id": 11,
+    "title": "How often are restore procedures for critical systems tested?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 135,
+        "title": "Annually",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 136,
+        "title": "Annually",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 137,
+        "title": "Annually",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 3
+      },
+      {
+        "id": 126,
+        "title": "Continuously",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 127,
+        "title": "Continuously",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 128,
+        "title": "Continuously",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 8
+      },
+      {
+        "id": 138,
+        "title": "Initially",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 1
+      },
+      {
+        "id": 139,
+        "title": "Initially",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 140,
+        "title": "Initially",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 2
+      },
+      {
+        "id": 129,
+        "title": "Monthly",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 4
+      },
+      {
+        "id": 130,
+        "title": "Monthly",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 4
+      },
+      {
+        "id": 131,
+        "title": "Monthly",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 7
+      },
+      {
+        "id": 141,
+        "title": "Never",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 132,
+        "title": "Quarterly",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 3
+      },
+      {
+        "id": 133,
+        "title": "Quarterly",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      }
+    ],
+    "suggestion": "Having a plan for restoring your critical systems in the event of a breech or infrastructure loss is essential for business continuity. Testing this plan regularly is equally important. You can easily backup and recover your systems using Azure Backup and Azure Site Recovery services."
+  },
+  {
+    "id": 13,
+    "title": "Do you conduct exercises for incident response and disaster recovery?",
+    "answerType": 3,
+    "options": [
+      {
+        "id": 145,
+        "title": "Full response walkthrough",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 146,
+        "title": "Full response walkthrough",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 147,
+        "title": "Full response walkthrough",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 8
+      },
+      {
+        "id": 151,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 148,
+        "title": "Table-top exercies",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 149,
+        "title": "Table-top exercies",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 150,
+        "title": "Table-top exercies",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "Waiting until a disaster happens to walkthrough an incident response plan is a disaster waiting to happen. Conducting regular full response walkthroughs ensures everyone knows what to do when things get rough."
+  },
+  {
+    "id": 14,
+    "title": "How often do you conduct red team / blue team exercises?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 170,
+        "title": "Annually",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 3
+      },
+      {
+        "id": 171,
+        "title": "Annually",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 172,
+        "title": "Annually",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 2
+      },
+      {
+        "id": 173,
+        "title": "Annually",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 174,
+        "title": "Annually",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 4
+      },
+      {
+        "id": 175,
+        "title": "Annually",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 3
+      },
+      {
+        "id": 152,
+        "title": "Continuously",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 153,
+        "title": "Continuously",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 154,
+        "title": "Continuously",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 155,
+        "title": "Continuously",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 156,
+        "title": "Continuously",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      },
+      {
+        "id": 157,
+        "title": "Continuously",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 8
+      },
+      {
+        "id": 158,
+        "title": "Monthly",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 6
+      },
+      {
+        "id": 159,
+        "title": "Monthly",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 4
+      },
+      {
+        "id": 160,
+        "title": "Monthly",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 3
+      }
+    ],
+    "suggestion": "Keeping your security team on their toes with simulated attack and defense scenarios ensures your analysts are on their game. Take time to establish these teams, their work prevents costly data breaches."
+  },
+  {
+    "id": 15,
+    "title": "Do you use advanced email protection with file detonation and URL rewriting?",
+    "answerType": 5,
+    "options": [
+      {
+        "id": 207,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 195,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 2
+      },
+      {
+        "id": 196,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 5
+      },
+      {
+        "id": 197,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 198,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 4
+      },
+      {
+        "id": 199,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 2
+      },
+      {
+        "id": 200,
+        "title": "Yes, all users and risky content only",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 183,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 184,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 185,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 186,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 187,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 188,
+        "title": "Yes, for all users and all content",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 189,
+        "title": "Yes, for all users and content from external senders",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 4
+      },
+      {
+        "id": 190,
+        "title": "Yes, for all users and content from external senders",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 6
+      }
+    ],
+    "suggestion": "Phishing emails are spiking and a constant threat to any organization, using built-in malware detection, automatic safe links and attachments, and email scanning is a critical step to protecting your office. With automated workflows Microsoft Defender for Office 365 protects organizations throughout the lifecycle of an attack."
+  },
+  {
+    "id": 16,
+    "title": "Do you use the same service account to perform operations across multiple workstations and or servers for privileged operations?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 211,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 208,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 209,
+        "title": "Yes",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 210,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "The Local Administrator Password Solution (LAPS) provides management of local account passwords of domain joined computers. Passwords are stored in Azure Active Directory and protected by ACL, so only eligible users can read it or request its reset."
+  },
+  {
+    "id": 18,
+    "title": "How secure are your critical backups?",
+    "answerType": 4,
+    "options": [
+      {
+        "id": 215,
+        "title": "Isolated and immutable",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 216,
+        "title": "Isolated and immutable",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 217,
+        "title": "Isolated and immutable",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 218,
+        "title": "Isolated but not immutable",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 3
+      },
+      {
+        "id": 219,
+        "title": "Isolated but not immutable",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 3
+      },
+      {
+        "id": 220,
+        "title": "Isolated but not immutable",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      },
+      {
+        "id": 221,
+        "title": "neither isolated nor immutable",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 1
+      },
+      {
+        "id": 222,
+        "title": "neither isolated nor immutable",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 1
+      },
+      {
+        "id": 223,
+        "title": "neither isolated nor immutable",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 224,
+        "title": "unknown",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      }
+    ],
+    "suggestion": "Keeping your most critical files safe and secure is common sense, ensuring they are fault tolerant and only accessible by the right people at the right time is a best practice. Giving just-in-time privileged access to sensitive data limits exposure of a data breach, with Privileged Identity Management you are able to manage, control, and monitor access to important resources in your organization."
+  },
+  {
+    "id": 19,
+    "title": "Do you monitor the progress of critical update deployment?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 228,
+        "title": "No",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 0
+      },
+      {
+        "id": 225,
+        "title": "Yes",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 226,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 227,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "Knowing what devices have received the latest software updates helps close any security gaps in your infrastructure. Microsoft Defender for Endpoint and Azure Sentinel allow your security administrators to view real time what devices have been updated and provides controls to ensure the devices remain compliant with established security controls."
+  },
+  {
+    "id": 23,
+    "title": "Is multi-factor authentication required for all administrators?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 271,
+        "title": "For some administrators on some applications",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 1
+      },
+      {
+        "id": 272,
+        "title": "For some administrators on some applications",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 2
+      },
+      {
+        "id": 273,
+        "title": "For some administrators on some applications",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 1
+      },
+      {
+        "id": 274,
+        "title": "For some administrators on some applications",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 275,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 259,
+        "title": "On all applications",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 4
+      },
+      {
+        "id": 260,
+        "title": "On all applications",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 6
+      },
+      {
+        "id": 261,
+        "title": "On all applications",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 3
+      },
+      {
+        "id": 262,
+        "title": "On all applications",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 4
+      },
+      {
+        "id": 255,
+        "title": "On all applications and servers",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 256,
+        "title": "On all applications and servers",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 257,
+        "title": "On all applications and servers",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 258,
+        "title": "On all applications and servers",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 263,
+        "title": "On all cloud applications",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 3
+      },
+      {
+        "id": 264,
+        "title": "On all cloud applications",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "MFA is the best and easiest way to block 99% of automated attacks to your environment, ensuring your privileged administrators are using MFA helps keep the entire organization secure. Microsoft Enterprise Mobility and Security provides stress-free MFA services that keep your employees productive and in their workflows."
+  },
+  {
+    "id": 30,
+    "title": "Do you conduct user behavior monitoring for exfiltration of data or unusual access patterns?",
+    "answerType": 3,
+    "options": [
+      {
+        "id": 305,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 297,
+        "title": "Yes, automated",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 298,
+        "title": "Yes, automated",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 299,
+        "title": "Yes, automated",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 300,
+        "title": "Yes, automated",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 301,
+        "title": "Yes, manual",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 2
+      },
+      {
+        "id": 302,
+        "title": "Yes, manual",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 3
+      },
+      {
+        "id": 303,
+        "title": "Yes, manual",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 2
+      },
+      {
+        "id": 304,
+        "title": "Yes, manual",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      }
+    ],
+    "suggestion": "Data breaches can come from both external and internal threats. You can create a baseline based on the user's behavior that triggers an alert when unusual behavior is detected with Microsoft Cloud App Security. Additionally, using automated detection capabilities of Microsoft Insider Risk Management, IT admins can be automatically alerted when an employee tries to download and decrypt sensitive information, automatically preventing costly data loss of business secrets."
+  },
+  {
+    "id": 31,
+    "title": "Do you separate regular and privileged operations though privileged access user accounts?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 309,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 306,
+        "title": "Yes",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 307,
+        "title": "Yes",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 308,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "Having standing access by some users to sensitive information or critical network configuration settings is a potential pathway for compromised accounts or internal threat activities. Privileged access management helps protect your organization from breaches and helps to meet compliance best practices by limiting standing access to sensitive data or access to critical configuration settings. Providing administrators just-in-time access provides a layer of defense against standing administrative access vulnerabilities."
+  },
+  {
+    "id": 32,
+    "title": "Do you correlate event, network, and applciation logs to maintain user authentication baselines and detect anomalies?",
+    "answerType": 4,
+    "options": [
+      {
+        "id": 322,
+        "title": "No",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 0
+      },
+      {
+        "id": 318,
+        "title": "Yes, manually",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 1
+      },
+      {
+        "id": 319,
+        "title": "Yes, manually",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 3
+      },
+      {
+        "id": 320,
+        "title": "Yes, manually",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 1
+      },
+      {
+        "id": 321,
+        "title": "Yes, manually",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 310,
+        "title": "Yes, using machine learning",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 5
+      },
+      {
+        "id": 311,
+        "title": "Yes, using machine learning",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 312,
+        "title": "Yes, using machine learning",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 4
+      },
+      {
+        "id": 313,
+        "title": "Yes, using machine learning",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 314,
+        "title": "Yes, using rules and automation",
+        "group": {
+          "id": 1,
+          "name": "Phishing"
+        },
+        "score": 3
+      },
+      {
+        "id": 315,
+        "title": "Yes, using rules and automation",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 5
+      },
+      {
+        "id": 316,
+        "title": "Yes, using rules and automation",
+        "group": {
+          "id": 4,
+          "name": "Data Exfiltration"
+        },
+        "score": 3
+      },
+      {
+        "id": 317,
+        "title": "Yes, using rules and automation",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      }
+    ],
+    "suggestion": "Maintaining a log of network and application logins allows for enhanced detection of login anomalies should they arise. Using these baselines helps ensure the user authentication is secure and protects against potential breaches based on user and device risk and history. Microsoft EMS, Azure Sentinel, and Defender use machine learning to automate this process so your security analysts don’t need to."
+  },
+  {
+    "id": 33,
+    "title": "What authentication mechanisms do your custom applications use?",
+    "answerType": 4,
+    "options": [
+      {
+        "id": 323,
+        "title": "All use hardnened and validated mainstream libraries or middleware",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 324,
+        "title": "All use hardnened and validated mainstream libraries or middleware",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      },
+      {
+        "id": 325,
+        "title": "Most use hardened and validated mainstream libraries or middleware",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      },
+      {
+        "id": 326,
+        "title": "Most use hardened and validated mainstream libraries or middleware",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 5
+      },
+      {
+        "id": 327,
+        "title": "most use stored usernames and passwords or custom authentication code",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 1
+      },
+      {
+        "id": 328,
+        "title": "most use stored usernames and passwords or custom authentication code",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 4
+      },
+      {
+        "id": 329,
+        "title": "unknown",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 0
+      }
+    ],
+    "suggestion": "Having strong user authentication for your apps helps safeguard credentials and access, ensuring that the right people have access. With Azure Active Directory you can customize the entire user experience with your brand so that it blends seamlessly with your web and mobile applications."
+  },
+  {
+    "id": 34,
+    "title": "Do you catalogue and audit 3rd party libraries and open source component dependencies in custom software projects?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 333,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 330,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 331,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 332,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "Maintaining system stability and reliability while working with open source and 3rd party libraries is important to produce better, more reliable products. By adopting a DevOps culture along with DevOps practices and tools you can accelerate your time to market and competitive edge. Using Azure DevOps allows your organization to collaborate on code development, and build and deploy applications faster and more reliably."
+  },
+  {
+    "id": 46,
+    "title": "Do you separate regular and privileged operations though privileged access workstations?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 393,
+        "title": "No",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 0
+      },
+      {
+        "id": 391,
+        "title": "Yes",
+        "group": {
+          "id": 9,
+          "name": "Domain Dominance"
+        },
+        "score": 8
+      },
+      {
+        "id": 392,
+        "title": "Yes",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      }
+    ],
+    "suggestion": "A Privileged Access Workstation involves establishes a secure connection to the privileged access server, limiting exposure to the outside world and protecting sensitive data. Using Azure Active Directory Premium helps ensure these workstations and admins work securely."
+  }
+]

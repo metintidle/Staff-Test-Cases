@@ -1,0 +1,358 @@
+[
+  {
+    "id": 8,
+    "title": "In the event of a catastrophic event where everything was lost all systems and data necessary for operations could be restored to another location or cloud within",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 103,
+        "title": "1 day",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 3
+      },
+      {
+        "id": 104,
+        "title": "1 day",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 3
+      },
+      {
+        "id": 105,
+        "title": "1 day",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 15
+      },
+      {
+        "id": 106,
+        "title": "1 day",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 5
+      },
+      {
+        "id": 95,
+        "title": "1 hour",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 5
+      },
+      {
+        "id": 96,
+        "title": "1 hour",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 5
+      },
+      {
+        "id": 97,
+        "title": "1 hour",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 25
+      },
+      {
+        "id": 98,
+        "title": "1 hour",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 8
+      },
+      {
+        "id": 107,
+        "title": "3 day",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 2
+      },
+      {
+        "id": 108,
+        "title": "3 day",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 2
+      },
+      {
+        "id": 109,
+        "title": "3 day",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 10
+      },
+      {
+        "id": 110,
+        "title": "3 day",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 3
+      },
+      {
+        "id": 99,
+        "title": "3 hour",
+        "group": {
+          "id": 2,
+          "name": "Living off the land"
+        },
+        "score": 4
+      },
+      {
+        "id": 100,
+        "title": "3 hour",
+        "group": {
+          "id": 5,
+          "name": "Crypto Jacking"
+        },
+        "score": 4
+      },
+      {
+        "id": 101,
+        "title": "3 hour",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 20
+      }
+    ],
+    "suggestion": "Backups are essential for resilience after an organization has been breached. Apply the 3-2-1 rule for maximum protection and availability: 3 copies, original + 2 backups, 2 storage types, and 1 offsite or cold copy. Files Restore in OneDrive for Business allows you to restore your entire OneDrive to a previous point in time within the last 30 days and can help you recover from a ransomeware attack. Additionally, with Azure Backup and Azure Site Recovery you can easily and quickly backup without the need to deploy complex on-premises backup solutions, with site recovery in just a few clicks."
+  },
+  {
+    "id": 38,
+    "title": "Does your IoT strategy include a security assessment prior to procurement for remote endpoint update, monitoring, and investigation capabilities?",
+    "answerType": 2,
+    "options": [
+      {
+        "id": 360,
+        "title": "No",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 0
+      },
+      {
+        "id": 357,
+        "title": "Yes",
+        "group": {
+          "id": 3,
+          "name": "Ransomware"
+        },
+        "score": 9
+      },
+      {
+        "id": 358,
+        "title": "Yes",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 25
+      },
+      {
+        "id": 359,
+        "title": "Yes",
+        "group": {
+          "id": 8,
+          "name": "Incident Response"
+        },
+        "score": 9
+      }
+    ],
+    "suggestion": "IoT is enabling a new wave of innovation with billions of connected devices, increasing the attack surface and risk. Having a complete inventory of all your IoT/OT devices, their details, and how they communicate on the IoT/OT network is critical for IoT security. Azure Defender for IoT is a unified security solution for identifying IoT/OT devices, vulnerabilities, and threats that enables you to secure your entire IoT/OT environment."
+  },
+  {
+    "id": 39,
+    "title": "How much excess application traffic can your DDoS protection absorb?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 364,
+        "title": "less than 100 Mbps",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 10
+      },
+      {
+        "id": 362,
+        "title": "less than 1Tbps",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 20
+      },
+      {
+        "id": 363,
+        "title": "less than 500 Mbps",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 15
+      },
+      {
+        "id": 361,
+        "title": "less than 5Tbps",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 25
+      },
+      {
+        "id": 365,
+        "title": "more than 100 Mbps",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 5
+      },
+      {
+        "id": 366,
+        "title": "Unknown",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 0
+      }
+    ],
+    "suggestion": "A distributed denial-of-service (DDoS) attack is more than just disruptive to an organization, there are hard and soft costs to a website crashing. Being able to recognize the attack and absorb the spike in traffic allows your organization continuity of business and avoids lengthy down times. Azure DDoS Protection and Office 365 help ensure your business is protected from this ever increasing threat."
+  },
+  {
+    "id": 40,
+    "title": "Do you use a high availability architecture and configuration for production applications necessary for operations?",
+    "answerType": 6,
+    "options": [
+      {
+        "id": 367,
+        "title": "All Auto Failover and Auto Scale",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 25
+      },
+      {
+        "id": 368,
+        "title": "All Auto Failover and Auto Scale",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 8
+      },
+      {
+        "id": 373,
+        "title": "All Manual Failover and Scale",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 10
+      },
+      {
+        "id": 374,
+        "title": "All Manual Failover and Scale",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 3
+      },
+      {
+        "id": 369,
+        "title": "Mostly Auto with some Manual Failover or Manual Scale",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 20
+      },
+      {
+        "id": 370,
+        "title": "Mostly Auto with some Manual Failover or Manual Scale",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 7
+      },
+      {
+        "id": 371,
+        "title": "Mostly Manual with some Auto Failover or Auto Scale",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 15
+      },
+      {
+        "id": 372,
+        "title": "Mostly Manual with some Auto Failover or Auto Scale",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 5
+      },
+      {
+        "id": 377,
+        "title": "No Failover or Scale",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 0
+      },
+      {
+        "id": 375,
+        "title": "Some Manual Failover and Scale",
+        "group": {
+          "id": 6,
+          "name": "DDoS"
+        },
+        "score": 5
+      },
+      {
+        "id": 376,
+        "title": "Some Manual Failover and Scale",
+        "group": {
+          "id": 7,
+          "name": "App vulnerabilities"
+        },
+        "score": 2
+      }
+    ],
+    "suggestion": "Having fault tolerance in your infrastructure is an important step to data loss prevention. Utilizing Azure lets you safely backup and store data without the need for costly on-site infrastructure."
+  }
+]
