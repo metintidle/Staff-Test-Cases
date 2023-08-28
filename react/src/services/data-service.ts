@@ -10,16 +10,17 @@ export default class DataService {
 
   public getQuestions(): IQuestion[] {
 
-    const questions = [exfiltration, phishing, jacking, ddos, ransomware];
+    const categories = [exfiltration, phishing, jacking, ddos, ransomware];
 
-    //find a random number between 0 through 4
-    const rand = Math.floor(Math.random() * questions.length);
+    //generate a random index in categories array
+    const rand = Math.floor(Math.random() * categories.length);
+    const questions = categories[rand];
 
-    const data = questions[rand];
-    data.forEach((ques) => {
+    //prepare the questions with ignore duplicate options
+    questions.forEach((ques) => {
       ques.options = ques.options.sort((a, b) => a.id - b.id).filter((v, i, a) => a.findIndex(v2 => (v2.title === v.title)) === i)
     });
-    return data;
+    return questions;
   }
 
 }

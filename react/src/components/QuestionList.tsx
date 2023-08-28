@@ -3,7 +3,7 @@ import DataService from '../services/data-service';
 import IQuestion, { IAnswer } from '../context/questionInfo';
 import { useEffect, useState } from 'react';
 import LiveHelpRoundedIcon from '@mui/icons-material/LiveHelpRounded';
-import MainButton from './shared/base/ButtonMain';
+import MainButton from './shared/form/ButtonMain';
 
 const QuestionList = ({ isVisible = false }) => {
   const [items, setItems] = useState<IQuestion[]>([]);

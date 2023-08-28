@@ -1,6 +1,6 @@
 # About
 
-This project is a security questionnaire that asks users about various aspects of security, categorized into different sections. When a user selects a category, they will see a list of related questions to which they can provide answers. Upon completion, they'll receive feedback regarding their level of knowledge and suggestions for improvement. but this sample doesn't  need to show result.
+This project is a security questionnaire that asks users about various aspects of security, categorized into different sections. When a user selects a category, they will see a list of related questions to which they can provide answers. Upon completion, they'll receive feedback regarding their level of knowledge and suggestions for improvement. but in this sample doesn't need to show result.
 
 > [Material UI Library](https://mui.com/) is used in this project.
 
@@ -8,7 +8,7 @@ This project is a security questionnaire that asks users about various aspects o
 
 ## Project description
 
-A sample of categories can be found in [categoryInfo.ts](./src/context/categoryInfo.ts). The categories include 'Phishing', 'DDoS', 'Ransomware', 'Crypto Jacking', 'Data Exfiltration'.The `questionCount` variable represents the number of questions in the category. The questions are located in the `data` folder. Each JSON file within the folder contains a set of questions.
+The categories can be found in [categoryInfo.ts](./src/context/categoryInfo.ts). The categories include 'Phishing', 'DDoS', 'Ransomware', 'Crypto Jacking', 'Data Exfiltration'.The `questionCount` variable represents the number of questions in the category. The questions are located in the `data` folder. Each JSON file within the folder contains a set of questions.
 
 The underlying json code has shown format data for each quesiton.
 
@@ -45,11 +45,12 @@ The underlying json code has shown format data for each quesiton.
 
 ![error](./error.png)
 
-## Extra Measures
+## NOTE
 
 The underlying measurements are taken into consideration when reviewing your code:
 
 1. SOLID
-2. Clean code
-3. Comments
-4. Data Structures
+3. Clean code
+4. Comments
+5. Data Structures
+6. Best practice Folder structure
